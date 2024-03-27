@@ -1,15 +1,16 @@
+import model.Personne;
+
 public class Lanceur {
 
 	public static void main(String[] args) {
 		
+		// System.out.println("This app works !");
 		
-		  JDBCPostgreSQLConnection app = new JDBCPostgreSQLConnection();
-		  app.connect();
-		 
-					
-			/*
-			 * CreateTable ct = new CreateTable(); ct.createTable();
-			 */
+		Personne p = new Personne();
+		p.setPrenom("Cyril");
+		p.setFamille("Do Alto");
+		p.setId(1);
+		System.out.println();
 		}
 	}
 		
